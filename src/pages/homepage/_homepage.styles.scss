@@ -1,0 +1,32 @@
+.homepage {
+  .homepage__header {
+    padding: 0.5em;
+    @include media-breakpoint-up(sm) {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding-left: 0;
+      padding-right: 0;
+    }
+
+    .header__forms {
+      @include media-breakpoint-up(sm) {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      & > div > label {
+        display: flex;
+        flex-direction: column;
+        max-width: 300px;
+        text-transform: capitalize;
+
+        @include media-breakpoint-up(sm) {
+          margin-left: 1em;
+          width: 200px;
+        }
+      }
+    }
+  }
+}

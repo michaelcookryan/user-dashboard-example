@@ -1,0 +1,6 @@
+.user-list {
+  @include media-breakpoint-up(sm) {
+    border-right: 1px solid $border-color;
+    border-left: 1px solid $border-color;
+  }
+}

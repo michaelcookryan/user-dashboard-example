@@ -1,0 +1,11 @@
+.sort-form {
+  select {
+    padding: 3px 0;
+    border: 2px solid $border-color;
+    border-radius: $border-radius;
+
+    &:focus-visible {
+      outline-color: $border-color;
+    }
+  }
+}

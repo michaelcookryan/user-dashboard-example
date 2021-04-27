@@ -1,0 +1,19 @@
+.post-container {
+  width: 100%;
+  border-bottom: 1px solid $border-color;
+  margin-bottom: 1.5em;
+
+  @include media-breakpoint-up(sm) {
+    border: 1px solid $border-color;
+    width: 48%;
+    padding: 1em;
+  }
+
+  @include media-breakpoint-up(lg) {
+    width: 32%;
+  }
+
+  h5 {
+    margin-bottom: 0.75rem;
+  }
+}

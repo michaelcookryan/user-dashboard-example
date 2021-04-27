@@ -1,0 +1,23 @@
+// Custom variables
+$border-radius: 0.4rem;
+
+// Import Bootstrap and its default variables
+@import "~bootstrap/scss/bootstrap";
+
+@import "./pages/details/details.styles";
+@import "./pages/homepage/homepage.styles";
+
+// @import "./components/address/address.styles";
+// @import "./components/company/company.styles";
+// @import "./components/contact/contact.styles";
+@import "./components/post/post.styles";
+@import "./components/post-list/post-list.styles";
+@import "./components/search-form/search-form.styles";
+@import "./components/sort-form/sort-form.styles";
+@import "./components/user-list/user-list.styles";
+@import "./components/user/user.styles";
+
+// Custom styles added to Bootstrap classes
+.container {
+  padding: 1.5rem 1rem;
+}

@@ -1,0 +1,10 @@
+.search-form {
+  input {
+    border: 2px solid $border-color;
+    border-radius: $border-radius;
+
+    &:focus-visible {
+      outline: none;
+    }
+  }
+}
