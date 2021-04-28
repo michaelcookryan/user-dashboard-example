@@ -3,9 +3,9 @@ Assignment submission by Michael (Mike) Ryan for FE Developer position with Cana
 
 **Instructions for running application locally**
 
-Once unzipped, use terminal to navigate into folder ‘mcryan-dashboard-app’
-Perform ‘npm install’
-Once node modules are installed, then perform ‘npm start’
+- Once unzipped, use terminal to navigate into folder ‘mcryan-dashboard-app’
+- Perform ‘npm install’
+- Once node modules are installed, then perform ‘npm start’
 
 
 ***Project Notes:***
