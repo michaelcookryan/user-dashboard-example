@@ -1,4 +1,4 @@
-Assignment submission by Michael (Mike) Ryan for FE Developer position with Canada Drives - April 2021
+## Assignment submission by Michael (Mike) Ryan for FE Developer position with Canada Drives - April 2021
 
 
 **Instructions for running application locally**
@@ -8,7 +8,7 @@ Assignment submission by Michael (Mike) Ryan for FE Developer position with Cana
 - Once node modules are installed, then perform ‘npm start’
 
 
-***Project Notes:***
+**Project Notes:**
 - Framework/Library used: Reactjs
 - 3rd Party CSS used: Bootstrap
 - IDE used: VSCode
@@ -17,11 +17,11 @@ Assignment submission by Michael (Mike) Ryan for FE Developer position with Cana
 - Total time approx 8+ hours
 
 
-***Build Notes:***
+**Build Notes:**
 - Style sheets for Address, Company, and Contact are empty, but they are there for future use if needed. Import rules for these empty sheets are in App.scss but have been commented out until required.
 
 
-***Challenges:***
+**Challenges:**
 - Having the email link nested inside another link (row container the user info) caused an error, but solution was to take email link out of the flow using absolute positioning,
 
 - I identified that the phone number links would require some more work and use of some regex so that only the actual phone number would be used and not to include any special characters or extensions. I left this out due to time.
