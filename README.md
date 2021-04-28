@@ -26,4 +26,4 @@
 
 - I identified that the phone number links would require some more work and use of some regex so that only the actual phone number would be used and not to include any special characters or extensions. I left this out due to time.
 
-- Using the browser back button does not properly re-render the homepage when used instead of the User link on the user details page. This is a known issue when useing React and ReactRouter for navigation, but with more time I would have persued a solution using history object and a conditional to re-render.
+- Using the browser back button does not properly re-render the homepage when used instead of the User link on the user details page. This is a known issue when useing React and ReactRouter for navigation, but with more time I would have persued a solution using history object for the Users link and a conditional to re-render for the back button.
