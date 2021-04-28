@@ -9,12 +9,12 @@ Once node modules are installed, then perform ‘npm start’
 
 
 ***Project Notes:***
-Framework/Library used: Reactjs
-3rd Party CSS used: Bootstrap
-IDE used: VSCode
-Bowser used in developement: Chrome
-Browsers used in testing: Chrome, Firefox, Safari
-Total time approx 8+ hours
+- Framework/Library used: Reactjs
+- 3rd Party CSS used: Bootstrap
+- IDE used: VSCode
+- Bowser used in developement: Chrome
+- Browsers used in testing: Chrome, Firefox, Safari
+- Total time approx 8+ hours
 
 
 ***Build Notes:***
