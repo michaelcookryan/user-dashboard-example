@@ -2,19 +2,26 @@
 
 A React application developed as a frontend coding assessment for a Frontend Developer position with Canada Drives in April 2021.
 
-The project involved implementing a user dashboard and individual user detail views, with an emphasis on responsive layout, component organization, and navigation.
+The application displays a list of users and provides navigation to individual user detail routes.
 
 ## Tech Stack
 
 - React
 - JavaScript
+- React Router
 - Bootstrap
 - SCSS
-- React Router
+
+## Features
+
+- User list displaying names, usernames, and email addresses
+- Individual user navigation using React Router
+- Clickable email links
+- Reusable React components for presenting user information
 
 ## Running Locally
 
-Install the dependencies:
+Install dependencies:
 
 ```bash
 npm install
@@ -28,20 +35,18 @@ npm start
 
 ## Development Notes
 
-The application was developed over approximately eight hours using VS Code and tested in Chrome, Firefox, and Safari.
+The application was developed over approximately eight hours and tested in Chrome, Firefox, and Safari.
 
-The implementation separates user information into components for address, company, and contact details.
+The implementation uses reusable components for presenting user information, including address, company, and contact details.
 
 ## Known Limitations
 
-As a time-constrained coding assessment, a few areas were left for further improvement:
+The original assessment was completed under a time constraint, leaving a few areas for improvement:
 
-- **Navigation:** Browser back-button navigation does not consistently restore the homepage view.
-- **Phone links:** Phone number formatting and extension handling require additional normalization.
-- **Nested links:** The clickable user row and email link required a positioning workaround to avoid nested interactive elements.
-
-These limitations reflect the state of the original assessment submission.
+- **Browser navigation:** Returning to the homepage using the browser's back button does not consistently restore the expected view.
+- **Phone links:** Phone numbers containing formatting characters or extensions require additional normalization.
+- **Clickable elements:** The original implementation uses a positioning workaround to accommodate an email link alongside the clickable user row.
 
 ## Project Context
 
-This repository is retained as an example of my earlier React development work. It has not been updated to reflect my current development practices or production engineering standards.
+This repository is retained as an example of my earlier React development work. It has not been modernized to reflect my current development practices.
